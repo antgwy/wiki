@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://antgwy.top/wiki/</loc>
-         <lastmod>2024-07-25</lastmod>
+         <lastmod>2024-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/java/</loc>
-         <lastmod>2024-07-25</lastmod>
+         <lastmod>2024-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/bangumi/anime/</loc>
+         <lastmod>2024-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/bangumi/game/</loc>
+         <lastmod>2024-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/diffusion/code/</loc>
-         <lastmod>2024-07-25</lastmod>
+         <lastmod>2024-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/diffusion/paper/guide/</loc>
-         <lastmod>2024-07-25</lastmod>
+         <lastmod>2024-07-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/tools/mkdocs/</loc>
+         <lastmod>2024-07-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

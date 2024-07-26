@@ -16,6 +16,8 @@
         <link rel="prev" href="../paper/guide/">
       
       
+        <link rel="next" href="../../tools/mkdocs/">
+      
       
       <link rel="icon" href="../../img/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
@@ -267,6 +269,42 @@
     
   
 
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tools/mkdocs/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../bangumi/anime/" class="md-tabs__link">
+          
+  
+  Bangumi
+
+        </a>
+      </li>
     
   
 
@@ -548,6 +586,161 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/mkdocs/" class="md-nav__link">
+        
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M7 9.5C7 8.7 7.7 8 8.5 8s1.5.7 1.5 1.5S9.3 11 8.5 11 7 10.3 7 9.5m5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81M15.5 11c-.8 0-1.5-.7-1.5-1.5S14.7 8 15.5 8s1.5.7 1.5 1.5-.7 1.5-1.5 1.5Z"/></svg>
+  
+  <span class="md-ellipsis">
+    Mkdocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Bangumi
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Bangumi
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bangumi/anime/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Anime
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bangumi/game/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Game
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -584,6 +777,8 @@
 
   <h1>Code</h1>
 
+<p>https://github.com/CompVis/stable-diffusion</p>
+<p>https://github.com/huggingface/diffusers</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">load_model_from_config</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">ckpt</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Loading model from </span><span class="si">{</span><span class="n">ckpt</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
     <span class="n">pl_sd</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">ckpt</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="s2">&quot;cpu&quot;</span><span class="p">)</span>
@@ -602,6 +797,26 @@
     <span class="n">model</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
     <span class="n">model</span><span class="o">.</span><span class="n">eval</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">model</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">model</span> <span class="o">=</span> <span class="n">load_model_from_config</span><span class="p">(</span><span class="n">config</span><span class="p">,</span> <span class="n">opt</span><span class="p">[</span><span class="s2">&quot;ckpt&quot;</span><span class="p">])</span>    
+<span class="n">model</span><span class="o">.</span><span class="n">decode_first_stage</span><span class="p">()</span>
+<span class="n">model</span><span class="o">.</span><span class="n">encode_first_stage</span><span class="p">()</span>
+
+<span class="n">model</span><span class="o">.</span><span class="n">get_learned_conditioning</span><span class="p">()</span>    <span class="c1"># CLIP 编码</span>
+
+<span class="n">model</span><span class="o">.</span><span class="n">apply_model</span><span class="p">()</span>                 <span class="c1"># U-Net 预测当前图像应去除的噪声</span>
+
+<span class="n">p_sample_ddim</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>                  <span class="c1"># 采样器计算下一去噪迭代的图像</span>
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="n">pipe</span> <span class="o">=</span> <span class="n">load_stable_diffusion</span><span class="p">(</span><span class="n">sd_version</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">opt</span><span class="p">[</span><span class="s2">&quot;model_id&quot;</span><span class="p">]),</span> <span class="n">precision_t</span><span class="o">=</span><span class="n">opt</span><span class="p">[</span><span class="s2">&quot;dtype&quot;</span><span class="p">])</span>
+<span class="n">image</span> <span class="o">=</span> <span class="n">pipe</span><span class="o">.</span><span class="n">vae</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">latents</span> <span class="o">/</span> <span class="n">pipe</span><span class="o">.</span><span class="n">vae</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">scaling_factor</span><span class="p">,</span> <span class="n">return_dict</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">latents</span> <span class="o">=</span> <span class="n">pipe</span><span class="o">.</span><span class="n">vae</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">image</span><span class="p">)</span><span class="o">.</span><span class="n">latent_dist</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">generator</span><span class="p">)</span> <span class="o">*</span> <span class="n">pipe</span><span class="o">.</span><span class="n">vae</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">scaling_factor</span>
+
+<span class="n">pipe</span><span class="o">.</span><span class="n">encode_prompt</span><span class="p">()</span>
+
+<span class="n">pipe</span><span class="o">.</span><span class="n">unet</span><span class="p">(,</span> <span class="n">return_dict</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">pipe</span><span class="o">.</span><span class="n">scheduler</span><span class="o">.</span><span class="n">step</span><span class="p">(,</span> <span class="n">return_dict</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 </code></pre></div>
 
 
@@ -674,6 +889,12 @@
     
     
       <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
