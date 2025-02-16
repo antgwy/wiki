@@ -2,37 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://antgwy.top/wiki/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/cpp/</loc>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/java/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://antgwy.top/wiki/bangumi/anime/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <loc>https://antgwy.top/wiki/cs-basics/ML/interview/</loc>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://antgwy.top/wiki/bangumi/game/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <loc>https://antgwy.top/wiki/cs-basics/network/basic/</loc>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/cs-basics/network/interview/</loc>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/cs-basics/os/interview/</loc>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/cs-basics/os/process-thread/</loc>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/diffusion/code/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/diffusion/paper/guide/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/misc/anime/</loc>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/misc/game/</loc>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/misc/interview/</loc>
+         <lastmod>2025-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://antgwy.top/wiki/misc/music/</loc>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://antgwy.top/wiki/tools/mkdocs/</loc>
-         <lastmod>2024-07-26</lastmod>
+         <lastmod>2025-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
